@@ -1,0 +1,22 @@
+{
+    "version":2,
+    "shared":{
+        "notification_email":"jiliang@yahoo-inc.com",
+        "max_jslint_errors":100,
+        "build":{
+            "lint":{
+                "threshold":100,
+                "task":"node-lint"
+            },
+            "test":{
+                "task":"npm-test",
+                "ignore_errors":true,
+                "line_coverage_threshold":60,
+                "before":["cd tests/functional/"]
+            },
+            "publish":{
+                "task":"none"
+            }
+        }
+    }
+}
