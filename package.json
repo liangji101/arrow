@@ -56,7 +56,6 @@
         "cheerio-select": "0.0.3",
         "jasmine-node":"1.4.0",
         "mocha":"1.7.4",
-        "qunitjs":"1.11.0",
         "chai":"1.5.0",
         "mkdirp": "0.3.5"
     },
